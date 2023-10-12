@@ -1,0 +1,20 @@
+.main .entrance{
+  display: flex;
+  justify-content: space-between;
+  height: 134px;
+  margin: 28px auto 34px;
+}
+.main .entrance a{
+  width: 291px;
+  height: 100%;
+  overflow: hidden;
+}
+.main .entrance img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  transition: transform .4s ease;
+}
+.main .entrance img:hover{
+  transform: scale(1.1);
+}

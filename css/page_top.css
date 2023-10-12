@@ -1,0 +1,76 @@
+.top{
+  border: 1px solid #f5f5f5; 
+ }
+ .top .area {
+   display: flex;
+   justify-content: space-between;
+   height: 41px;
+   padding: 0 5px;
+ }
+ .top .left-area{
+   display: flex;
+ }
+ .top .left-area .log-game a,.top_wrapper .left-area .log-recommend a{
+   display: block;
+   height: 100%;
+ }
+ .top .left-area .log-game a{
+   position: relative;
+   width: 150px;
+   text-indent: -9999px;
+   background:url(../img/top_logo-game.png) no-repeat ;
+   z-index: 12;
+ }
+ .top .left-area .log-recommend a{
+   position: relative;
+   width: 230px;
+   background:url(../img/top_log-recommend.jpg) no-repeat ;
+ }
+ .top .left-area .log-recommend a img{
+   display: none;
+   position: absolute;
+   top: 0px;
+   left: -150px;
+   z-index: 9;
+ }
+ .top .left-area .log-recommend a:hover img{
+   display: block;
+ }
+
+ .top .right-area{
+   display: flex;
+   line-height: 41px;
+ }
+ .top .right-area .log-growth a::before,.top_wrapper .right-area .log-ranking a::after{
+   content:"";
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+   vertical-align: top;
+ }
+ .top .right-area .log-growth a::before{
+   background:url(../img/top_log-sprite.png) no-repeat -30px 0;
+ }
+ .top .right-area .log-ranking{
+   position: relative;
+   margin-left: 25px;
+   animation: opacityAnim 0.3s ease-in-out;
+ }
+ .top .right-area .log-ranking a::after{
+   background:url(../img/top_log-sprite.png) no-repeat 0 0;
+   transform: translateY(-50%) rotate(90deg);
+   opacity: 0.2;
+ }
+ .top .right-area .log-ranking iframe{
+   display: none;
+   position: absolute;
+   right: 0;
+   top: 41px;
+   z-index: 99;
+ }
+ .top .right-area .log-ranking:hover iframe{
+   display: block;
+ }

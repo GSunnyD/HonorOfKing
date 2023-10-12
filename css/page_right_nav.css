@@ -1,0 +1,109 @@
+.right-nav{
+  position: fixed;
+  right:0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 254px;
+  height: 494px;
+  background:url(../img/r_navBg.png) ;
+}
+.right-nav .right-top{
+  position: relative;
+  width: 165px;
+  height: 145px;
+}
+.right-nav .right-tips {
+  position: absolute;
+  top: 15px;
+  left: 24px;
+  width: 100%;
+  height: 100%;
+  background: url(../img/r_dj.png);
+}
+.right-nav .right-tips p{
+  position: relative;
+  top: 35px;
+  left: 14px;
+  display: block;
+  width: 88px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #62401b;
+}
+.right-nav .down-sprite{
+  position: relative;
+  top: 16px;
+  left: 80px;
+}
+.right-nav .down-sprite .code-wrapper{
+  width: 117px;
+  height: 132px;
+  padding: 2px 5px;
+  background: url(../img/r_all2022.png) no-repeat -243px 0;
+}
+.right-nav .down-sprite .code-wrapper img{
+  width: 107px;
+  height: 107px;
+}
+.right-nav .down-sprite .item{
+  position: relative;
+  width: 117px;
+  height: 38px;
+  background: url(../img/r_all2022.png) no-repeat;
+}
+
+.right-nav .down-sprite .item-hidden{
+  opacity: 0;
+  position: absolute;
+  top: -66px;
+  left: -116px;
+  width: 115px;
+  height: 144px;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #dcdcdc;
+  background: url(../img/r_all2022.png) no-repeat 0 -416px;
+  transition: opacity 500ms ease;
+}
+.right-nav .down-sprite .item-hidden img{
+  display: block;
+  width: 101px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.right-nav .down-sprite .item-hidden span{
+  color: #cd974b;
+}
+
+.right-nav .down-sprite .item:hover .item-hidden{
+  opacity: 1;
+}
+.right-nav .down-sprite .campsite{
+  background-position:  0 -160px;
+}
+ .right-nav .down-sprite .campsite:hover{
+  background-position: 0 -240px;
+}
+.right-nav .down-sprite .weibo{
+  display: block;
+  background-position: -122px -120px;
+}
+.right-nav .down-sprite .weibo:hover{
+  background-position: -122px -240px;
+}
+.right-nav .down-sprite .weixin{
+  background-position: -122px -160px;
+}
+.right-nav .down-sprite .weixin:hover{
+  background-position: -122px -200px;
+}
+.right-nav .down-sprite .video{
+  background-position: -122px 0;
+}
+.right-nav .down-sprite .video:hover{
+  background-position: -122px -42px;
+}

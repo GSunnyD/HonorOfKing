@@ -1,0 +1,118 @@
+.news-section{
+  display: flex;
+  height: 342px;
+  background:url(../img/news_section_bg.png) no-repeat left top;
+}
+.news-section .banner{ 
+  width: 605px;
+}
+.news-section .banner .title_album{
+  display: flex;
+  width: 604px;
+  height: 298px;
+  overflow: hidden;
+}
+
+.news-section .banner .title_album .album a{
+  display: block;
+}
+
+.news-section .banner .title_item{
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+.news-section .banner .title_item .item a{   
+  display: block;
+  width: 120.8px;
+  color: #b1b2be;
+}
+.news-section .banner .title_item .item a:hover,
+.news-section .banner .title_item .active a{
+  background-color: rgba(255,255,255,0.15);
+  color: #f3c258;
+}
+.news-section .news{
+  flex: 1;
+  padding: 0 17px;
+}
+.news-section .news .news-top {
+  display: flex;
+  height: 48px;
+  border-bottom: 1px solid #000;
+}
+.news-section .news .news-top .news-title{
+  width: 52px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+.news-section .news .news-top .news-title a{
+  display: block;
+  height: 100%;
+  color: #bbb9c5;
+  border-bottom: 3px solid transparent;
+  transition: all .225s ease-out
+}
+.news-section .news .news-top .news-title:not(.more) a:hover, 
+.news-section .news .news-top .active a{
+  color: #f3c258;
+  border-color: #f3c258;
+}
+.news-section .news .news-notice{
+  width: 294px;
+  height: 36px;
+  padding: 0 15px;
+  margin: 18px 0 11px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #414046;
+}
+.news-section .news .news-notice a{
+  display: block;
+  width: 230px;
+  height: 100%;
+  font-size: 18px;
+  color: #f3c258; 
+}
+.news-section .news .news-items .item{
+  display: flex;
+  justify-content: space-between;
+  /* height: 21px;
+  line-height: 21px; */
+  align-items: center;
+  margin-bottom: 11px;
+}
+.news-section .news .news-items .item .desc{
+  display: block;
+  width: 269px;
+  /* height: 100%; */
+  color: #b8b9c5;
+}
+.news-section .news .news-items .item .date{
+  font-size: 12px;
+  color: #999;
+}
+
+
+.news-section .download{
+  width: 236px;
+}
+.news-section .download a{
+  display: block;
+  background: url(../img/main_sprite.png) no-repeat;
+}
+.news-section .download .download-btn{
+  height: 128px;
+  background-position: 0 -219px;
+}
+.news-section .download .guard-btn{
+  height: 106px;
+  background-position: 0 -350px;
+}
+.news-section .download .experience-btn{
+  height: 108px;
+  background-position: 0 -461px;
+}
